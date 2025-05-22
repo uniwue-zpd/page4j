@@ -1,21 +1,21 @@
 Java core libraries by PRImA Research Lab
 
- - PrimaBasic
- 
-   Basic interfaces and classes
-   
+ - page4j-basic
 
- - PrimaMaths
- 
+   Basic interfaces and classes
+
+
+ - page4j-math
+
    Mathematical data types and functions
-   
-   
- - PrimaIo
- 
+
+
+ - page4j-io
+
    File input/output related interfaces and classes
-   
-   
- - PrimaDla
- 
+
+
+ - page4j-dla
+
    Document Layout Analysis related content including classes for reading and modifying PAGE.
-  
+
