@@ -7,11 +7,11 @@
         <groupId>de.uniwue.zpd</groupId>
         <artifactId>page4j-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>page4j-maths</artifactId>
-    <name>page4j-maths</name>
+    <artifactId>page4j-basic</artifactId>
+    <name>page4j-basic</name>
 
     <dependencies>
         <dependency>
@@ -21,24 +21,6 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>src</sourceDirectory>
-        <testSourceDirectory>test</testSourceDirectory>
-        <resources>
-            <resource>
-                <directory>src</directory> <includes>
-                <include>**/*.gwt.xml</include> <include>**/*.properties</include> </includes>
-                <excludes>
-                    <exclude>**/*.java</exclude> </excludes>
-            </resource>
-        </resources>
-        <testResources>
-            <testResource>
-                <directory>test</directory>
-                <excludes>
-                    <exclude>**/*.java</exclude>
-                </excludes>
-            </testResource>
-        </testResources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

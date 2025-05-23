@@ -19,10 +19,10 @@
     </properties>
 
     <modules>
-        <module>java/page4j-basic</module>
-        <module>java/page4j-dla</module>
-        <module>java/page4j-io</module>
-        <module>java/page4j-maths</module>
+        <module>page4j-basic</module>
+        <module>page4j-dla</module>
+        <module>page4j-io</module>
+        <module>page4j-maths</module>
     </modules>
 
     <dependencyManagement>
@@ -57,7 +57,8 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.2.5</version> </plugin>
+                    <version>3.2.5</version>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
